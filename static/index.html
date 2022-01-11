@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Auto close page</title>
+</head>
+
+<body>
+    <h1>This page will auto close</h1>
+    <p>In one sec.</p>
+</body>
+
+<script>
+    (function () {
+        setTimeout(function () {
+            window.close();
+        }, 1000)
+    })();
+</script>
